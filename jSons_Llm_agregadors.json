@@ -1,0 +1,647 @@
+[
+    { //hotel 1
+        "id": 0,
+        "nom": "Villamar",
+        "estrellas": "5",
+        "fecha": "2019-05-08",
+        "tamañoHotel": "grande",
+        "idiomas": "Castellano",
+        "localizacion": {
+            "pais": "Francia",
+            "ciudad": "Palma",
+            "calle": "Avinguda Alemanya"
+        },
+        "habitaciones": [
+            {
+                "id": 0,
+                "minibar": true,
+                "ordenador": true,
+                "vistasMar": true,
+                "jacuzzi": true,
+                "telefono": true,
+                "cocina": true,
+                "agregadores": [
+                    {
+                        "id": 0,
+                        "nom": "bedsOnline",
+                        "tarifas": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 500
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 900
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nom": "hotelBooks",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 520
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 920
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nom": "HRS",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 550
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 950
+                            }
+                        ]
+                    }
+                ],
+                "precio_base": null, 
+                "impuestos": 17,
+                "comision": 25,
+                "precio_total": null 
+            },
+            {
+                "id": 1,
+                "minibar": false,
+                "ordenador": false,
+                "vistasMar": false,
+                "jacuzzi": false,
+                "telefono": false,
+                "cocina": false,
+                "agregadores": [
+                    {
+                        "id": 0,
+                        "nom": "bedsOnline",
+                        "tarifas": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 100
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 200
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nom": "hotelBooks",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 120
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 120
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nom": "HRS",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 150
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 150
+                            }
+                        ]
+                    }
+                ],
+                "precio_base": null, 
+                "impuestos": 19,
+                "comision": 27,
+                "precio_total": null 
+            },
+            {
+                "id": 2,
+                "minibar": true,
+                "ordenador": false,
+                "vistasMar": true,
+                "jacuzzi": false,
+                "telefono": true,
+                "cocina": false,
+                "agregadores": [
+                    {
+                        "id": 0,
+                        "nom": "bedsOnline",
+                        "tarifas": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 230
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 400
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nom": "hotelBooks",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 240
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 420
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nom": "HRS",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 250
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 450
+                            }
+                        ]
+                    }
+                ],
+                "precio_base": null, 
+                "impuestos": 21,
+                "comision": 29,
+                "precio_total": null 
+            }    
+        ],
+        "servicios": {
+            "mascotas": "on",
+            "wifi": "on",
+            "gimnasio": "on",
+            "spa": "on"
+        },
+        "contacto": {
+            "telefono": "971387692",
+            "email": "fllamas@cifpfbmoll.eu",
+            "fax": "070707"
+        }
+    },
+    { //hotel 2
+        "id": 1,
+        "nom": "Royal",
+        "estrellas": "3",
+        "fecha": "2020-04-01",
+        "tamañoHotel": "pequeño",
+        "idiomas": "Ingles",
+        "localizacion": {
+            "pais": "Italia",
+            "ciudad": "Roma",
+            "calle": "Avenida Italia"
+        },
+        "habitaciones": [
+            {
+                "id": 0,
+                "minibar": false,
+                "ordenador": false,
+                "vistasMar": false,
+                "jacuzzi": false,
+                "telefono": false,
+                "cocina": false,
+                "agregadores": [
+                    {
+                        "id": 0,
+                        "nom": "bedsOnline",
+                        "tarifas": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 80
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 120
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nom": "hotelBooks",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 85
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 125
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nom": "HRS",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 90
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 130
+                            }
+                        ]
+                    }
+                ],
+                "precio_base": null, 
+                "impuestos": 17,
+                "comision": 25,
+                "precio_total": null 
+            },
+            {
+                "id": 1,
+                "minibar": false,
+                "ordenador": false,
+                "vistasMar": true,
+                "jacuzzi": false,
+                "telefono": true,
+                "cocina": false,
+                "agregadores": [
+                    {
+                        "id": 0,
+                        "nom": "bedsOnline",
+                        "tarifas": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 120
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 220
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nom": "hotelBooks",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 140
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 240
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nom": "HRS",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 130
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 230
+                            }
+                        ]
+                    }
+                ],
+                "precio_base": null, 
+                "impuestos": 19,
+                "comision": 27,
+                "precio_total": null 
+            },
+            {
+                "id": 2,
+                "minibar": true,
+                "ordenador": false,
+                "vistasMar": true,
+                "jacuzzi": false,
+                "telefono": true,
+                "cocina": false,
+                "agregadores": [
+                    {
+                        "id": 0,
+                        "nom": "bedsOnline",
+                        "tarifas": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 150
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 250
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nom": "hotelBooks",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 170
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 270
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nom": "HRS",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 160
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 260
+                            }
+                        ]
+                    }
+                ],
+                "precio_base": null, 
+                "impuestos": 21,
+                "comision": 29,
+                "precio_total": null 
+            }    
+        ],
+        "servicios": {
+            "mascotas": "on",
+            "wifi": "on",
+            "gimnasio": "on",
+            "spa": "on"
+        },
+        "contacto": {
+            "telefono": "678546534",
+            "email": "fran.llamas@hotmail.com",
+            "fax": "181818"
+        }
+    },
+    { //hotel 3
+        "id": 2,
+        "nom": "Palace",
+        "estrellas": "6",
+        "fecha": "2020-01-15",
+        "tamañoHotel": "mediano",
+        "idiomas": "Ingles",
+        "localizacion": {
+            "pais": "Francia",
+            "ciudad": "Paris",
+            "calle": "Avenida Francia"
+        },
+        "habitaciones": [
+            {
+                "id": 0,
+                "minibar": false,
+                "ordenador": false,
+                "vistasMar": false,
+                "jacuzzi": false,
+                "telefono": false,
+                "cocina": false,
+                "agregadores": [
+                    {
+                        "id": 0,
+                        "nom": "bedsOnline",
+                        "tarifas": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 800
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 1200
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nom": "hotelBooks",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 850
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 1250
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nom": "HRS",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 900
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 1300
+                            }
+                        ]
+                    }
+                ],
+                "precio_base": null, 
+                "impuestos": 17,
+                "comision": 25,
+                "precio_total": null 
+            },
+            {
+                "id": 1,
+                "minibar": false,
+                "ordenador": false,
+                "vistasMar": true,
+                "jacuzzi": false,
+                "telefono": true,
+                "cocina": false,
+                "agregadores": [
+                    {
+                        "id": 0,
+                        "nom": "bedsOnline",
+                        "tarifas": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 1200
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 2200
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nom": "hotelBooks",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 1400
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 2400
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nom": "HRS",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 1300
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 2300
+                            }
+                        ]
+                    }
+                ],
+                "precio_base": null, 
+                "impuestos": 19,
+                "comision": 27,
+                "precio_total": null 
+            },
+            {
+                "id": 2,
+                "minibar": true,
+                "ordenador": true,
+                "vistasMar": true,
+                "jacuzzi": false,
+                "telefono": true,
+                "cocina": false,
+                "agregadores": [
+                    {
+                        "id": 0,
+                        "nom": "bedsOnline",
+                        "tarifas": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 1500
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 2500
+                            }
+                        ]
+                    },
+                    {
+                        "id": 1,
+                        "nom": "hotelBooks",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 1700
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 2700
+                            }
+                        ]
+                    },
+                    {
+                        "id": 2,
+                        "nom": "HRS",
+                        "tarifes": [
+                            {
+                                "id": 0,
+                                "temporada": "baixa",
+                                "preu": 1600
+                            },
+                            {
+                                "id": 1,
+                                "temporada": "alta",
+                                "preu": 2600
+                            }
+                        ]
+                    }
+                ],
+                "precio_base": null, 
+                "impuestos": 21,
+                "comision": 29,
+                "precio_total": null 
+            }    
+        ],
+        "servicios": {
+            "mascotas": "on",
+            "wifi": "on",
+            "gimnasio": "on",
+            "spa": "on"
+        },
+        "contacto": {
+            "telefono": "324567987",
+            "email": "fran.llamas95@gmail.com",
+            "fax": "123456"
+        }
+    }
+]
